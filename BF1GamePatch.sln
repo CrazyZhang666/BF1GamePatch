@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BF1GamePatch", "BF1GamePatch\BF1GamePatch.csproj", "{5FF1917F-719A-44D0-80D3-E3B114C772DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FF1917F-719A-44D0-80D3-E3B114C772DB}.Debug|x64.ActiveCfg = Debug|x64
+		{5FF1917F-719A-44D0-80D3-E3B114C772DB}.Debug|x64.Build.0 = Debug|x64
+		{5FF1917F-719A-44D0-80D3-E3B114C772DB}.Release|x64.ActiveCfg = Release|x64
+		{5FF1917F-719A-44D0-80D3-E3B114C772DB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D8B9270-9A29-425B-B0ED-A7EA58CAA83B}
+	EndGlobalSection
+EndGlobal
