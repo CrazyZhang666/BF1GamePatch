@@ -20,7 +20,8 @@ public static class FileHelper
     {
         return Task.Run(() =>
         {
-            Directory.Delete(dirPath, true);
+            if (Directory.Exists(dirPath))
+                Directory.Delete(dirPath, true);
         });
     }
 
@@ -31,7 +32,8 @@ public static class FileHelper
     {
         return Task.Run(() =>
         {
-            File.Delete(filePath);
+            if (File.Exists(filePath))
+                File.Delete(filePath);
         });
     }
 
@@ -42,6 +44,9 @@ public static class FileHelper
     {
         return Task.Run(() =>
         {
+            if (!File.Exists(oldPath))
+                return;
+
             var newDir = Path.GetDirectoryName(newPath);
             CreateDirectory(newDir);
 
