@@ -6,7 +6,7 @@
     xmlns:local="clr-namespace:BF1GamePatch"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     x:Name="Window_Main"
-    Title="战地1游戏文件降级工具（游玩马恩Mod服专用）"
+    Title="战地1游戏文件降级工具（使用电影工具专用）"
     Width="700"
     Height="500"
     Closing="Window_Main_Closing"
